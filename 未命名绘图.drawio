@@ -1,1 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T09:39:50.808Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="PQqsAyI4hOkzq35WmnVc" version="14.4.8" type="github"><diagram id="ouRzlcikrgPGXLrHks5i" name="第 1 页">7ZdNb9pAEIZ/jaX20Ap/gMkxNkl6SKQ0VOp5sBd7xXrHWi8B8us7a68xhpCSVogLkoW8785+zfuMjR0/LtYPCsr8CVMmHG+Qrh1/4nheOPbo1wibRgiCsBEyxdNGcjthyt+YFQdWXfKUVb1AjSg0L/tiglKyRPc0UApX/bA5iv6qJWTsQJgmIA7V3zzVeaOOvbDTfzCe5e3K7uim6SmgDbYnqXJIcbUj+XeOHytE3dwV65gJk7s2L824+yO9240pJvUpA6LXhVzOgjBZhD8fYjYa3/uTb3aWVxBLe+BYQFVJKJjdtd60qahWvBAgqRXNUeqp7XGpDYJnku4T2gtTJLwypTll8dZ2aCxJTXIu0kfY4NLsuNKQLNpWlKPibzQtCDsndSttgfBGvYipGUnygFTFKop5btPg7klPsO4FPkKlrZCgEFBWfLY9RgEq4zJCrbGwQTY/dBy2Ppp4d2snlQHDgmm1oRA7wLuxBNgScEe2veqAckOr5bsw+VYEC3G2nXu73AtBDzKjI3xuvcE761GWe8uBIDMlaBbhUqbVLl10s3PUTqqZ+wR/3gF/jheZOuXMFOqtKfdNecgiuaFrRhQuWIwCCbqJxAZOLsSe1PIp2FwfpbMqIeEye6xjJkGnvNgUGQlp7FzUdZzzNGXSkIUaNDQYGWZK5FLXORxGdFGm48H3oTOkjcfUdrs2XSZc6RglnQV4TRQjRlfMcHoafscr+5DJTd/qvyHoBccJ7LHwWeOHV+MvYvzwxGeP98Gj57+M998xfs9jwWvvGo/bt677TwYXZJVgnaO/jOEmR/uu+4eu++84LGDGxDNWXHM086smds/5S5kbnmju+EzeBkeKmmbPMf1iCvrrtbbPZ//4xNoencn/0dX/S/rvDoKzAUDN7lOl+ffXfe/5d38A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T09:41:08.410Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="DrSkRmAOENA6qVStyEPd" version="14.4.8" type="github">
+  <diagram id="ouRzlcikrgPGXLrHks5i" name="第 1 页">
+    <mxGraphModel dx="782" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bvknub47ck7QGCe68F3D-1" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="160" width="170" height="114" as="geometry">
+            <mxRectangle x="290" y="160" width="100" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bvknub47ck7QGCe68F3D-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Bvknub47ck7QGCe68F3D-1" vertex="1">
+          <mxGeometry y="30" width="170" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvknub47ck7QGCe68F3D-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Bvknub47ck7QGCe68F3D-1" vertex="1">
+          <mxGeometry y="54" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvknub47ck7QGCe68F3D-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Bvknub47ck7QGCe68F3D-1" vertex="1">
+          <mxGeometry y="62" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Bvknub47ck7QGCe68F3D-6" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Bvknub47ck7QGCe68F3D-1" vertex="1">
+          <mxGeometry y="88" width="170" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
