@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T10:58:44.733Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="p6XNC9Ayk7CZO28YImC0" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T11:05:57.073Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36" etag="uIKLSWK4reqOMn0o1I_O" version="14.5.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="720" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="hPRdige7XLwrhypFddUL-1" value="&lt;b&gt;distributed.py&lt;/b&gt;&lt;br&gt;call_main()&lt;br&gt;&amp;nbsp; distributed_main()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;distributed_init()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; dist.init_proess_group()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; initialize_model_parallel()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;dist.new_group()&lt;br&gt;&amp;nbsp; &lt;b&gt;train.py&lt;/b&gt;:main()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="95" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="hPRdige7XLwrhypFddUL-4" value="&lt;b&gt;train.py&lt;/b&gt;&lt;br&gt;main()&lt;br&gt;&amp;nbsp; import_user_module()&lt;br&gt;&amp;nbsp; task = setup_task()&lt;br&gt;&amp;nbsp; task.build_model()&lt;br&gt;&amp;nbsp; task.build_criterion()&lt;br&gt;&amp;nbsp; trainer = MegatronTrainer()&lt;br&gt;&amp;nbsp; train()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; trainer.begin_epoch()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;task.begin_epoch() donothing&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; trainer.train_step()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="250" width="230" height="170" as="geometry" />
+        <mxCell id="hPRdige7XLwrhypFddUL-4" value="&lt;b&gt;train.py&lt;/b&gt;&lt;br&gt;main()&lt;br&gt;&amp;nbsp; import_user_module()&lt;br&gt;&amp;nbsp; task = setup_task()&lt;br&gt;&amp;nbsp; task.build_model()&lt;br&gt;&amp;nbsp; task.build_criterion()&lt;br&gt;&amp;nbsp; trainer = MegatronTrainer()&lt;br&gt;&amp;nbsp; train()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; trainer.begin_epoch()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;task.begin_epoch() donothing&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; trainer.train_step()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;_prepare_sample()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;move_to_cuda()&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tensor.to(dev)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="230" width="230" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
